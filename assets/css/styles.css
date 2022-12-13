@@ -1,17 +1,10 @@
-nav
-#logo 
-    display: flex;
-    justify-content: start;
-    width: auto;
+.navbar-brand>img {
     height: 4em;
+    width: auto;
 }
 
-navbar-item
-    text-align: center;
-    display: flex;
-    justify-content: flex-end;
+.footer {
+    background-color: black;
+    color: white;
+    font-family: 'roboto';
 }
-
-footer
-    background-color: gray;
-    color: black;
