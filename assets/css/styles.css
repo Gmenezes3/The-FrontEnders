@@ -1,0 +1,17 @@
+nav
+#logo 
+    display: flex;
+    justify-content: start;
+    width: auto;
+    height: 4em;
+}
+
+navbar-item
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer
+    background-color: gray;
+    color: black;
