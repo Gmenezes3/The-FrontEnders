@@ -58,6 +58,6 @@ Usado para dar um axilio na criação do site. usado principalmente no auxilio d
 <li><b>Co-Facilitador</b> - Pedro Nicácio</li>
 <li><b>Gestor de Pessoas e Engajamento</b> - João Victor Teodoro</li>
 <li><b>Gestora de Conhecimento</b> - Martha Lucena</li>
-<li><b>Colaborador I</b> - Rayssa Cadilhe</li>
-<li><b>Colaborador II</b> - Jorge Menezes</li>
+<li><b>Colaborador I</b> - Jorge Menezes</li>
+<li><b>Colaborador II</b> - Rayssa Cadilhe</li>
 
