@@ -1,67 +1,71 @@
-* {
-    box-sizing: border-box;
-}
-
+/* Ajuste da imagem da Barra de Navegação*/
 .navbar-brand>img {
     height: 4em;
     width: auto;
+
 }
 
-
-section {
-    background-image: url(/assets/img/fundo.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    height: 50em;
+main {
+    height:50em;
+    padding: 12em 4em 10em 4em;
+    box-sizing: border-box
 }
 
-/* Criação dos 3 containers de tamanhos iguais */
-.columns {
+/* Criação de três "Cards" com tamanhos Iguais para cada tipo de plano */
+.cards {
+    float: left;
     width: 33.3%;
-    padding: 4em;
+    padding: 8px;
 }
 
-/* Style da Lista */
-.price {
+/* Estilo da lista dos cards do plano de assinatura */
+.lista {
     list-style-type: none;
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid #eee;
     margin: 0;
     padding: 0;
     -webkit-transition: 0.3s;
     transition: 0.3s;
 }
 
-/* Adição de sombra a animação */
-.price:hover {
-    box-shadow: 0 8px 12px 0 rgba(255, 255, 255, 0.2)
+/* adição de sombreamento nos planos de assinatura */
+.lista:hover {
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
 }
 
-/* Cabeçalho da lista */
-.price .header {
-    background-color: #391e5d;
+/* cabeçalho dos planos de assinatura */
+.lista .header {
+    background-color: #8a2be2;
     color: white;
     font-size: 25px;
     font-family: 'roboto';
 }
 
-/* Lista de Itens */
-.price li {
+/* lista de Itens */
+.lista li {
     border-bottom: 1px solid #eee;
     padding: 20px;
     text-align: center;
-    background-color: #ffffff;
 }
 
-/* Grey list item */
-.price .grey {
+/* container de preço */
+.price {
     background-color: #eee;
     font-size: 20px;
+    font-family: 'roboto';
+    font-weight: bold;
 }
 
-/* Botão de "Assinar" */
-.button {
+/* container do botão de assinatura */
+.assinatura {
+
+    background-color: #eee;
+    font-size: 20px;
+
+}
+
+/* Botão de Assinatura */
+.assinatura .button {
     background-color: #04AA6D;
     border: none;
     color: white;
@@ -71,21 +75,16 @@ section {
     font-size: 18px;
 }
 
-/* Responsividade da pagina em pequenas telas */
-
+/* Change the width of the three columns to 100%
+(to stack horizontally on small screens) */
 @media only screen and (max-width: 800px) {
-    section {
-        flex-direction: column;
-        height: auto;
+    main{
+        height:108em;
+        padding: 10 4 8 4;
     }
+    .cards {
+      width: 100%;
+      flex-direction: column;
 
-    .columns {
-        width: 100%;
     }
-}
-
-@media only screen and (max-width: 600px) {
-    .columns {
-        width: 100%;
-    }
-}
+  }
