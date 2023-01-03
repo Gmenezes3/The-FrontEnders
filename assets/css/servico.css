@@ -6,7 +6,7 @@
 }
 
 main {
-    height:50em;
+    height: 65em;
     padding: 12em 4em 10em 4em;
     box-sizing: border-box
 }
@@ -77,14 +77,85 @@ main {
 
 /* Change the width of the three columns to 100%
 (to stack horizontally on small screens) */
-@media only screen and (max-width: 800px) {
-    main{
-        height:108em;
-        padding: 10 4 8 4;
+@media only screen and (max-width: 990px) {
+    main {
+        height: 120em;
+        padding: 8 4 8 4;
     }
+
     .cards {
-      width: 100%;
-      flex-direction: column;
+        height: 80%;
+        width: 95%;
+        flex-direction: column;
 
     }
-  }
+}
+
+@media only screen and (max-width: 600px) {
+    main {
+        height: 130em;
+        padding: 8 4 8 4;
+    }
+
+    .cards {
+        height: 80%;
+        width: 100%;
+        flex-direction: column;
+
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    main {
+        height: 135em;
+        padding: 8 4 8 4;
+    }
+
+    .cards {
+        height: 80%;
+        width: 100%;
+        flex-direction: column;
+
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    main {
+        height: 150em;
+        padding: 8 4 8 4;
+    }
+
+    .cards {
+        height: 80%;
+        width: 100%;
+        flex-direction: column;
+
+    }
+}
+@media only screen and (max-width: 350px) {
+    main {
+        height: 170em;
+        padding: 8 4 8 4;
+    }
+
+    .cards {
+        height: 80%;
+        width: 100%;
+        flex-direction: column;
+
+    }
+}
+
+@media only screen and (max-width: 321px) {
+    main {
+        height: 177em;
+        padding: 8 4 8 4;
+    }
+
+    .cards {
+        height: 80%;
+        width: 100%;
+        flex-direction: column;
+
+    }
+}
