@@ -3,3 +3,13 @@
     width: auto;
 }
 
+.sobre-produto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto-produto > img{
+    height: 500px;
+}
+
