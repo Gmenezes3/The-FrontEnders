@@ -1,15 +1,78 @@
-.navbar-brand>img {
-    height: 4em;
-    width: auto;
+/* CONFIGURAÇÕES PADRÕES DO SITE */
+:root {
+    --navbar-bg-color: #f3f3f3;
+    --footer-bg-color: #343236;
+    --body-bg-color: #391e5d;
+    --dark-font-color: #0a0016;
+    --light-font-color: #dfdfdf;
+    --alt-light-color: #cdd5eb;
+    --button-color-login: #71cedab2;
 }
 
-.sobre-produto{
+/* CONFIGURAÇÃO DA NAVBAR */
+.navbar {
+    background-color: var(--navbar-bg-color);
+    box-shadow: rgba(0, 0, 0, 0.408) 0px 0px 10px;
+
+}
+
+.nav-link {
+    color: var(--dark-font-color);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    transition: 0.3s;
+
+}
+
+#button-login {
+    background-color: var(--button-color-login);
+    border-radius: 50em;
+}
+
+.nav-link:hover {
+    color: cornflowerblue;
+
+}
+
+.btn-primary {
+    background-color: var(--body-bg-color);
+    border-radius: 50em;
+    transition: 0.3s;
+    border: black 1px solid;
+
+}
+
+.btn-primary:hover {
+    box-shadow: rgba(0, 0, 0, 0.44) 0px 0px 10px;
+    background-color: var(--button-color-login);
+    border: black 0.5px solid;
+    color: var(--dark-font-color);
+}
+
+#logo {
+    height: 3em;
+    width: auto;
+
+}
+
+.nav-item {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+/* CONFIGURAÇÃO DO CONTEÚDO PRINCIPAL DA PAGINA(MAIN) */
+.sobre-produto {
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.foto-produto > img{
-    height: 500px;
+.foto-produto>img {
+    height: 100px;
 }
 
+.text-produto {
+    font-size: xx-small;
+}

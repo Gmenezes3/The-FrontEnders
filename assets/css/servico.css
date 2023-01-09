@@ -1,9 +1,21 @@
-/* Ajuste da imagem da Barra de Navegação*/
-.navbar-brand>img {
-    height: 4em;
-    width: auto;
-
+/* CONFIGURAÇÕES PADRÕES DO SITE */
+:root {
+    --navbar-bg-color: #f3f3f3;
+    --footer-bg-color: #343236;
+    --body-bg-color: #391e5d;
+    --dark-font-color: #0a0016;
+    --light-font-color: #dfdfdf;
+    --alt-light-color: #cdd5eb;
+    --button-color-login: #71cedab2;
 }
+
+/* CONFIGURAÇÃO DA NAVBAR */
+
+#logo {
+    height: 3em;
+    width: auto;
+}
+
 
 main {
     height: 65em;
@@ -132,6 +144,7 @@ main {
 
     }
 }
+
 @media only screen and (max-width: 350px) {
     main {
         height: 170em;
